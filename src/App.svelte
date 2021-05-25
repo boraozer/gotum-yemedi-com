@@ -37,7 +37,7 @@
 		</a>
 	</div>
 
-	<p><a href="https://svelte.dev/tutorial"><b>FoxQL.com'u</b></a> Ziyaret ederek gönüllü topluluğa katılabilirsin.</p>
+	<p><a href="https://foxql.com"><b>FoxQL.com'u</b></a> Ziyaret ederek gönüllü topluluğa katılabilirsin.</p>
 </main>
 
 <style>
