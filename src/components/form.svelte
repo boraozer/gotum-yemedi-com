@@ -33,7 +33,7 @@
             offersCollection.addDoc({
                 entryId : documentId,
                 recieverCount : 0,
-                destroyRecieveCount : 5
+                destroyRecieveCount : 10
             });
             document.querySelector('input').value = '';
             document.querySelector('textarea').value = '';

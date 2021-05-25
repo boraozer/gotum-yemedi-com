@@ -70,7 +70,6 @@
             )[0])
 
             if(offerDoc.destroyRecieveCount <= offerDoc.recieverCount) {
-                console.log('alla')
                 offersCollection.deleteDoc(offerDoc.entryId);
                 entryCollection.deleteDoc(documentId)
             }
