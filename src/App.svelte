@@ -27,9 +27,15 @@
 		</div>	
 	</div>
 
-	<a href = "https://play.google.com/store/apps/details?id=com.foxql.twa">
-		<img src= "./google_play_icon.png" class = "play-store-icon">
-	</a>
+	<div class = "buttons">
+		<a href = "https://play.google.com/store/apps/details?id=com.foxql.twa">
+			<img src= "./google_play_icon.png" class = "play-store-icon">
+		</a>
+	
+		<a href = "https://github.com/boraozer/gotum-yemedi-com" class = "github">
+			Github
+		</a>
+	</div>
 
 	<p><a href="https://svelte.dev/tutorial"><b>FoxQL.com'u</b></a> Ziyaret ederek gönüllü topluluğa katılabilirsin.</p>
 </main>
@@ -95,6 +101,23 @@
 	.play-store-icon {
 		width: 120px;
 		margin-top: 0.5rem;
+	}
+
+	.github {
+		background: #f6f8fa;
+		color: #24292e;
+		padding: 0.5rem 1rem;
+		border-radius: 30px;
+		font-weight: 600;
+		margin-left: 1rem;
+		font-size:0.9rem;
+	}
+
+
+	.buttons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	
 </style>
